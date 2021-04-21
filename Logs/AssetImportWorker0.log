@@ -12,71 +12,90 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57308
+58062
 Successfully changed project path to: /Users/mabuchishohei/Desktop/unity/AssetTest
 /Users/mabuchishohei/Desktop/unity/AssetTest
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 59.48 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 29.31 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path /Applications/2020.3.2f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/mabuchishohei/Desktop/unity/AssetTest/Assets
 GfxDevice: creating device client; threaded=0
-2021-04-08 17:01:15.837 Unity[47717:3492171] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6100 (low power)
-2021-04-08 17:01:15.837 Unity[47717:3492171] Metal devices available: 1
-2021-04-08 17:01:15.837 Unity[47717:3492171] 0: Intel(R) Iris(TM) Graphics 6100 (low power)
-2021-04-08 17:01:15.837 Unity[47717:3492171] Using device Intel(R) Iris(TM) Graphics 6100 (low power)
+2021-04-21 16:05:17.365 Unity[60131:4143214] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6100 (low power)
+2021-04-21 16:05:17.365 Unity[60131:4143214] Metal devices available: 1
+2021-04-21 16:05:17.365 Unity[60131:4143214] 0: Intel(R) Iris(TM) Graphics 6100 (low power)
+2021-04-21 16:05:17.365 Unity[60131:4143214] Using device Intel(R) Iris(TM) Graphics 6100 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6100
 Initialize mono
 Mono path[0] = '/Applications/2020.3.2f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/2020.3.2f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/2020.3.2f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56717
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56131
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/2020.3.2f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/2020.3.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001548 seconds.
+Registered in 0.002651 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 50.25 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 34.81 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.085 seconds
+- Completed reload, in  3.614 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000544 seconds.
+Registered in 0.001058 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.368 seconds
+- Completed reload, in  1.672 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/2020.3.2f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1127 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.8 MB.
+System memory in use before: 113.9 MB.
 System memory in use after: 113.9 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1570.
-Total: 3.609883 ms (FindLiveObjects: 0.478530 ms CreateObjectMapping: 0.195583 ms MarkObjects: 2.826011 ms  DeleteObjects: 0.107345 ms)
+Total: 4.697022 ms (FindLiveObjects: 0.343978 ms CreateObjectMapping: 0.106031 ms MarkObjects: 4.123144 ms  DeleteObjects: 0.121560 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(d20044372174d4d27a3c9efcf81d9ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(d20044372174d4d27a3c9efcf81d9ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133f2a6d2d3e9b18d1a269270f3116a2') in 0.005925 seconds
-  Import took 0.009546 seconds .
+  path: Assets/GameScene/Scripts/ActionModeSwitchButton.cs
+  artifactKey: Guid(0d660eb29d7a9a540bcedb76e5b83151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameScene/Scripts/ActionModeSwitchButton.cs using Guid(0d660eb29d7a9a540bcedb76e5b83151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c80cddd54e048cabf311c7b3ed7a896') in 2.787081 seconds
+  Import took 2.791226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000511 seconds.
+  path: Assets/GameScene/Scripts
+  artifactKey: Guid(3e106bab9f5a9e148adb01cf70cc1093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameScene/Scripts using Guid(3e106bab9f5a9e148adb01cf70cc1093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4f2e78cb440fd811420a0b93c5d781') in 0.001551 seconds
+  Import took 0.005768 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.8 MB.
+System memory in use after: 95.9 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1570.
+Total: 3.392196 ms (FindLiveObjects: 0.275525 ms CreateObjectMapping: 0.052230 ms MarkObjects: 2.961478 ms  DeleteObjects: 0.100539 ms)
 
